@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:carousel/secondPage.dart';
 
 class BodyPage extends StatefulWidget {
   @override
@@ -64,7 +65,11 @@ class Product extends StatelessWidget {
         tag: product_name,
         child: Material(
           child: InkWell(
-            onTap: (){},
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(
+                builder: (context) => HomePage(),
+              ));
+            },
             child: GridTile(
               footer: Container(
                 color: Colors.white70,

@@ -63,7 +63,6 @@ class ImageCarousel extends StatelessWidget {
               AssetImage('lib/assets/images/img1.jpg'),
               AssetImage('lib/assets/images/img2.jpg'),
               AssetImage('lib/assets/images/img3.jpg'),
-              // AssetImage('lib/assets/images/product1.jpg')
             ],
             animationCurve: Curves.fastOutSlowIn,
             animationDuration: Duration(milliseconds: 2000),
